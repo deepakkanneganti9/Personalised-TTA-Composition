@@ -1,5 +1,0 @@
-Method,Composition size coverage,Cases used,Total time (ns),Avg. time/case (ns)
-Semantic,"1,2,3,4","5,5,5,1",1610617374,100663586
-Context,"1,2,3,4","5,5,5,1",1939658461,121228654
-MLaaS,"1,2,3,4","5,5,5,1",1358966579,84935411
-TTA,"1,2,3,4","5,5,5,1",1830603460,114412716

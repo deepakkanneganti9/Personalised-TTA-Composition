@@ -1,5 +1,0 @@
-{
-  "run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/FL/artifacts/mnist_fl_baseline_5clients_run",
-  "num_rounds": 10,
-  "final_global_accuracy": 0.9905
-}

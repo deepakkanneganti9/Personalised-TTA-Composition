@@ -1,5 +1,0 @@
-Method,Avg Similarity,Avg Candidate Pool,Avg Candidates Scanned,Avg Case Time (s),Avg Selection (s),Avg Aggregation (s),Avg Evaluation (s),Runtime Total (s),Runtime Per Case (s)
-Semantic,0.0,1.0,1.0,0.0,0.0,0.0,0.0,2.6367,0.1014
-Context,0.0,1.0,1.0,0.0,0.0,0.0,0.0,3.4215,0.1316
-MLaaS,0.0,1.0,1.0,0.0,0.0,0.0,0.0,2.2936,0.0882
-TTA,0.0,1.0,1.0,0.0,0.0,0.0,0.0,2.9666,0.1141

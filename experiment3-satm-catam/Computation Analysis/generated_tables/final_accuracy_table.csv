@@ -1,5 +1,0 @@
-Method,Healthy,Degraded,After,Recovery Ratio,Requirement Satisfaction,Success,False No Improvement,False Below Requirement
-Semantic,0.9883,0.5527,0.6858,0.3064,0.1923,0.9615,0.0385,0.8077
-Context,0.9883,0.5527,0.6808,0.2944,0.1923,1.0,0.0,0.8077
-MLaaS,0.9883,0.5527,0.6827,0.2993,0.1923,1.0,0.0,0.8077
-Tta,0.9883,0.5527,0.5996,0.1195,0.0,0.6923,0.3077,1.0
