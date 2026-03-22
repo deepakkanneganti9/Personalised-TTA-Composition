@@ -1,0 +1,7 @@
+{
+  "run_dir": "/home/deepak/Downloads/CIFAR100/FL/artifacts/cifar100_fl_baseline_5clients_run_clean",
+  "dataset": "CIFAR-100",
+  "dataset_name": "cifar100",
+  "num_rounds": 30,
+  "final_global_accuracy": 0.407
+}

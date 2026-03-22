@@ -1,0 +1,17 @@
+{
+  "dataset": "cifar100",
+  "seed": 42,
+  "num_clients": 5,
+  "num_rounds": 30,
+  "local_epochs": 30,
+  "batch_size": 256,
+  "eval_batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "num_threads": 4,
+  "preferred_classes_per_client": 25,
+  "preferred_share": 0.68,
+  "max_train_samples_per_client": null,
+  "max_eval_samples": null
+}

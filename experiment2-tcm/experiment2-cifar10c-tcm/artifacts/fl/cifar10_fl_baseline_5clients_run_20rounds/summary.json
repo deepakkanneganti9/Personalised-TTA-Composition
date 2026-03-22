@@ -1,0 +1,6 @@
+{
+  "run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/FL/artifacts/cifar10_fl_baseline_5clients_run_20rounds",
+  "dataset": "CIFAR-10",
+  "num_rounds": 20,
+  "final_global_accuracy": 0.5912
+}

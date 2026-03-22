@@ -1,0 +1,17 @@
+{
+  "composition_name": "C2_C5",
+  "client_names": [
+    "client_1",
+    "client_4"
+  ],
+  "dataset": "clean_mnist_test",
+  "num_target_samples": 10000,
+  "separate_artifacts": {
+    "wdm_weights": "wdm_composition_weights.json",
+    "ucs_layer_updates": "ucs_composition_layer_updates.json",
+    "bndas_bn_mean_var": "bndas_composition_bn_mean_var.json",
+    "bnuas_bn_gamma_beta": "bnuas_composition_bn_gamma_beta.json",
+    "pdam_prediction_distribution": "pdam_composition_prediction_distribution.json"
+  },
+  "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/Performing composition/artifacts_expanded/C2_C5"
+}

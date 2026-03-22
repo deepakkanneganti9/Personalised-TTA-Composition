@@ -1,0 +1,39 @@
+{
+  "round": 24,
+  "dataset": "CIFAR-100",
+  "global_accuracy": 0.4061,
+  "client_metrics": {
+    "client_0": {
+      "loss": 0.30253512901373397,
+      "num_samples": 9756,
+      "original_num_samples": 9756
+    },
+    "client_1": {
+      "loss": 0.2523677044796447,
+      "num_samples": 10198,
+      "original_num_samples": 10198
+    },
+    "client_2": {
+      "loss": 0.32171759516255466,
+      "num_samples": 9746,
+      "original_num_samples": 9746
+    },
+    "client_3": {
+      "loss": 0.2646993054793431,
+      "num_samples": 9925,
+      "original_num_samples": 9925
+    },
+    "client_4": {
+      "loss": 0.22950533604839954,
+      "num_samples": 10375,
+      "original_num_samples": 10375
+    }
+  },
+  "client_sizes": {
+    "client_0": 9756,
+    "client_1": 10198,
+    "client_2": 9746,
+    "client_3": 9925,
+    "client_4": 10375
+  }
+}

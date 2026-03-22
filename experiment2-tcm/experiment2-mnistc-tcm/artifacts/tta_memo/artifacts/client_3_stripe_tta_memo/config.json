@@ -1,0 +1,15 @@
+{
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/FL/artifacts/mnist_fl_baseline_5clients_run",
+  "client_name": "client_3",
+  "corruption": "stripe",
+  "split": "test",
+  "batch_size": 32,
+  "learning_rate": 0.00025,
+  "num_augmentations": 8,
+  "augmentation_severity": 3,
+  "num_steps": 1,
+  "seed": 42,
+  "num_target_samples": 10000,
+  "adaptation_method": "tta_memo",
+  "tta_memo_suffix": "tta_memo"
+}

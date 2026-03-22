@@ -1,0 +1,18 @@
+{
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/FL/artifacts/mnist_fl_baseline_5clients_run",
+  "client_name": "client_0",
+  "corruption": "impulse_noise",
+  "split": "test",
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "max_batches": null,
+  "allowed_digits": null,
+  "seed": 42,
+  "num_target_samples": 10000,
+  "tent_parameter_names": [
+    "features.1.weight",
+    "features.1.bias",
+    "features.5.weight",
+    "features.5.bias"
+  ]
+}

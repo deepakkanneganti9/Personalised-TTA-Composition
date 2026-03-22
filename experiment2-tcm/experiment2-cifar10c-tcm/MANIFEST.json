@@ -1,0 +1,40 @@
+{
+  "release_name": "cifar10_paper_release",
+  "dataset": "CIFAR-10 / CIFAR-10-C",
+  "principle": "Reuse saved artifacts and saved results without rerunning heavy pipelines.",
+  "dependency_flow": [
+    "artifacts",
+    "results/compatibility",
+    "results/qos",
+    "scripts/build_final_tables.py",
+    "results/final"
+  ],
+  "artifacts": {
+    "fl": "artifacts/fl/cifar10_fl_baseline_5clients_run_20rounds",
+    "tta": {
+      "tent": "artifacts/tta/tent",
+      "tta_bn": "artifacts/tta/tta_bn",
+      "tta_memo": "artifacts/tta/tta_memo"
+    },
+    "performing_compositions": "artifacts/compositions/expanded"
+  },
+  "results": {
+    "compatibility": {
+      "tent": "results/compatibility/tent/summary.csv",
+      "tta_bn": "results/compatibility/tta_bn/summary.csv",
+      "tta_memo": "results/compatibility/tta_memo/summary.csv"
+    },
+    "qos": {
+      "tent": "results/qos/qos_tent.csv",
+      "tta_bn": "results/qos/qos_tta_bn.csv",
+      "tta_memo": "results/qos/qos_tta_memo.csv",
+      "performing": "results/qos/qos_performing_c.csv"
+    },
+    "final": {
+      "tent": "results/final/tent_final_table.csv",
+      "tta_bn": "results/final/tta_bn_final_table.csv",
+      "tta_memo": "results/final/tta_memo_final_table.csv",
+      "combined": "results/final/combined_final_table.csv"
+    }
+  }
+}

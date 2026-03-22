@@ -1,0 +1,56 @@
+{
+  "threshold_rules": {
+    "mean": 1.0,
+    "mean_minus_16pct": 0.84
+  },
+  "selection": [
+    [
+      "rule_based",
+      "mean",
+      "mean"
+    ],
+    [
+      "inference_based",
+      "mean",
+      "mean"
+    ],
+    [
+      "semantic_based",
+      "mean",
+      "mean"
+    ],
+    [
+      "similarity_based",
+      "mean",
+      "mean"
+    ],
+    [
+      "CATTM",
+      "mean_minus_16pct",
+      "mean_minus_16pct"
+    ]
+  ],
+  "tables": [
+    {
+      "method": "TTA Grad",
+      "output_table": "results/final/tent_final_table.csv",
+      "summary_path": "results/compatibility/tent/summary.csv",
+      "adapted_qos_path": "results/qos/qos_tent.csv",
+      "performing_qos_path": "results/qos/qos_performing_c.csv"
+    },
+    {
+      "method": "TTA-BN",
+      "output_table": "results/final/tta_bn_final_table.csv",
+      "summary_path": "results/compatibility/tta_bn/summary.csv",
+      "adapted_qos_path": "results/qos/qos_tta_bn.csv",
+      "performing_qos_path": "results/qos/qos_performing_c.csv"
+    },
+    {
+      "method": "TTA-MEMO",
+      "output_table": "results/final/tta_memo_final_table.csv",
+      "summary_path": "results/compatibility/tta_memo/summary.csv",
+      "adapted_qos_path": "results/qos/qos_tta_memo.csv",
+      "performing_qos_path": "results/qos/qos_performing_c.csv"
+    }
+  ]
+}

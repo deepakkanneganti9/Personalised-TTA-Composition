@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "num_clients": 5,
+  "num_rounds": 20,
+  "local_epochs": 1,
+  "batch_size": 256,
+  "eval_batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "num_threads": 4,
+  "preferred_classes_per_client": 4,
+  "preferred_share": 0.68
+}

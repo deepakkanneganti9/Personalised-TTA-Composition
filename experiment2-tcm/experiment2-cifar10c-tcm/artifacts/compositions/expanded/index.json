@@ -1,0 +1,330 @@
+[
+  {
+    "composition_name": "C1",
+    "client_names": [
+      "client_0"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 1,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1"
+  },
+  {
+    "composition_name": "C2",
+    "client_names": [
+      "client_1"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 1,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2"
+  },
+  {
+    "composition_name": "C3",
+    "client_names": [
+      "client_2"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 1,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C3"
+  },
+  {
+    "composition_name": "C4",
+    "client_names": [
+      "client_3"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 1,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C4"
+  },
+  {
+    "composition_name": "C5",
+    "client_names": [
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 1,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C5"
+  },
+  {
+    "composition_name": "C1_C2",
+    "client_names": [
+      "client_0",
+      "client_1"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2"
+  },
+  {
+    "composition_name": "C1_C3",
+    "client_names": [
+      "client_0",
+      "client_2"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C3"
+  },
+  {
+    "composition_name": "C1_C4",
+    "client_names": [
+      "client_0",
+      "client_3"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C4"
+  },
+  {
+    "composition_name": "C1_C5",
+    "client_names": [
+      "client_0",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C5"
+  },
+  {
+    "composition_name": "C2_C3",
+    "client_names": [
+      "client_1",
+      "client_2"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C3"
+  },
+  {
+    "composition_name": "C2_C4",
+    "client_names": [
+      "client_1",
+      "client_3"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C4"
+  },
+  {
+    "composition_name": "C2_C5",
+    "client_names": [
+      "client_1",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C5"
+  },
+  {
+    "composition_name": "C3_C4",
+    "client_names": [
+      "client_2",
+      "client_3"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C3_C4"
+  },
+  {
+    "composition_name": "C3_C5",
+    "client_names": [
+      "client_2",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C3_C5"
+  },
+  {
+    "composition_name": "C4_C5",
+    "client_names": [
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 2,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C4_C5"
+  },
+  {
+    "composition_name": "C1_C2_C3",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_2"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C3"
+  },
+  {
+    "composition_name": "C1_C2_C4",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_3"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C4"
+  },
+  {
+    "composition_name": "C1_C2_C5",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C5"
+  },
+  {
+    "composition_name": "C1_C3_C4",
+    "client_names": [
+      "client_0",
+      "client_2",
+      "client_3"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C3_C4"
+  },
+  {
+    "composition_name": "C1_C3_C5",
+    "client_names": [
+      "client_0",
+      "client_2",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C3_C5"
+  },
+  {
+    "composition_name": "C1_C4_C5",
+    "client_names": [
+      "client_0",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C4_C5"
+  },
+  {
+    "composition_name": "C2_C3_C4",
+    "client_names": [
+      "client_1",
+      "client_2",
+      "client_3"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C3_C4"
+  },
+  {
+    "composition_name": "C2_C3_C5",
+    "client_names": [
+      "client_1",
+      "client_2",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C3_C5"
+  },
+  {
+    "composition_name": "C2_C4_C5",
+    "client_names": [
+      "client_1",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C4_C5"
+  },
+  {
+    "composition_name": "C3_C4_C5",
+    "client_names": [
+      "client_2",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 3,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C3_C4_C5"
+  },
+  {
+    "composition_name": "C1_C2_C3_C4",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_2",
+      "client_3"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 4,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C3_C4"
+  },
+  {
+    "composition_name": "C1_C2_C3_C5",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_2",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 4,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C3_C5"
+  },
+  {
+    "composition_name": "C1_C2_C4_C5",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 4,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C4_C5"
+  },
+  {
+    "composition_name": "C1_C3_C4_C5",
+    "client_names": [
+      "client_0",
+      "client_2",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 4,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C3_C4_C5"
+  },
+  {
+    "composition_name": "C2_C3_C4_C5",
+    "client_names": [
+      "client_1",
+      "client_2",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": false,
+    "num_clients": 4,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C2_C3_C4_C5"
+  },
+  {
+    "composition_name": "C1_C2_C3_C4_C5",
+    "client_names": [
+      "client_0",
+      "client_1",
+      "client_2",
+      "client_3",
+      "client_4"
+    ],
+    "contains_original_c1": true,
+    "num_clients": 5,
+    "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/Performing composition/artifacts_expanded/C1_C2_C3_C4_C5"
+  }
+]

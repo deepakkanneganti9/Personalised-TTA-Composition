@@ -1,0 +1,6 @@
+method,technique,accuracy,precision,recall,f1
+TTA-BN,rule_based,0.4317,0.4683,0.4203,0.443
+TTA-BN,inference_based,0.3519,0.3792,0.3221,0.3484
+TTA-BN,semantic_based,0.5705,0.5987,0.6106,0.6046
+TTA-BN,similarity_based,0.4599,0.4975,0.4286,0.4605
+TTA-BN,CATTM,0.8259,0.9884,0.831,0.9029

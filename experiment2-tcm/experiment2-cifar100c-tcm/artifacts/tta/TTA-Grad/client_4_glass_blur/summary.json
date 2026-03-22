@@ -1,0 +1,20 @@
+{
+  "client_name": "client_4",
+  "corruption": "glass_blur",
+  "severity": 1,
+  "dataset": "CIFAR-100",
+  "dataset_name": "cifar100",
+  "target_dataset": "CIFAR-100-C",
+  "num_target_samples": 10000,
+  "baseline_accuracy": 0.1189,
+  "adapted_accuracy": 0.1819,
+  "num_adaptation_batches": 40,
+  "separate_artifacts": {
+    "wdm_weights": "wdm_adapted_weights.json",
+    "ucs_layer_updates": "ucs_adapted_layer_updates.json",
+    "bndas_bn_mean_var": "bndas_adapted_bn_mean_var.json",
+    "bnuas_bn_gamma_beta": "bnuas_adapted_bn_gamma_beta.json",
+    "pdam_prediction_distribution": "pdam_adapted_prediction_distribution.json"
+  },
+  "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/TTA techniques/artifacts/client_4_glass_blur"
+}

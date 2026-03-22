@@ -1,0 +1,25 @@
+{
+  "canonical_inputs": {
+    "fl": "artifacts/fl/mnist_fl_baseline_5clients_run",
+    "tta_grad": "artifacts/tta_grad/artifacts",
+    "tta_bn": "artifacts/tta_bn/artifacts",
+    "tta_memo": "artifacts/tta_memo/artifacts",
+    "performing_compositions": "artifacts/performing_compositions/artifacts_expanded"
+  },
+  "canonical_intermediate_results": {
+    "grad_summary": "results/compatibility/grad/summary.csv",
+    "grad_summary_with_baselines": "results/compatibility/grad/summary_with_baselines.csv",
+    "tta_bn_summary": "results/compatibility/tta_bn/summary.csv",
+    "tta_bn_summary_with_baselines": "results/compatibility/tta_bn/summary_with_baselines.csv",
+    "tta_memo_summary": "results/compatibility/tta_memo/summary.csv",
+    "tta_memo_summary_with_baselines": "results/compatibility/tta_memo/summary_with_baselines.csv",
+    "adapted_qos": "results/qos/adapted_qos_all.csv",
+    "performing_qos": "results/qos/performing_compositions_qos.csv"
+  },
+  "canonical_final_results": {
+    "grad": "results/final/grad/final_table.csv",
+    "tta_bn": "results/final/tta_bn/final_table.csv",
+    "tta_memo": "results/final/tta_memo/final_table.csv",
+    "combined": "results/final/combined_final_tables.csv"
+  }
+}

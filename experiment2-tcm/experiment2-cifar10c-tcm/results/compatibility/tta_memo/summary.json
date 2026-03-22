@@ -1,0 +1,65 @@
+{
+  "status": "completed",
+  "num_rows": 15500,
+  "chunk_size": 500,
+  "num_chunks_per_corruption": 20,
+  "num_adapted_cases": 25,
+  "num_compositions": 31,
+  "severity": 1,
+  "thresholds": [
+    0.35,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "threshold_metrics": [
+    {
+      "threshold": 0.35,
+      "accuracy": 0.7949677419354839,
+      "precision": 0.821975806451613,
+      "recall": 0.9585423197492163,
+      "f1": 0.8850217076700435,
+      "tp": 12231,
+      "fp": 2649,
+      "fn": 529,
+      "tn": 91,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.7616774193548387,
+      "precision": 0.8242489270386266,
+      "recall": 0.9030564263322884,
+      "f1": 0.861854899027674,
+      "tp": 11523,
+      "fp": 2457,
+      "fn": 1237,
+      "tn": 283,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.6259354838709678,
+      "precision": 0.8136036036036036,
+      "recall": 0.7077586206896552,
+      "f1": 0.7569991617770327,
+      "tp": 9031,
+      "fp": 2069,
+      "fn": 3729,
+      "tn": 671,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.4228387096774194,
+      "precision": 0.7670868347338936,
+      "recall": 0.4292319749216301,
+      "f1": 0.5504522613065327,
+      "tp": 5477,
+      "fp": 1663,
+      "fn": 7283,
+      "tn": 1077,
+      "num_samples": 15500
+    }
+  ]
+}

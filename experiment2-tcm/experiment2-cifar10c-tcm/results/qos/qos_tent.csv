@@ -1,0 +1,26 @@
+client_id,corruption_category,prediction_distribution,latency,quality_factor,reliability_score,weights_file
+client_0,brightness,"[0.0538, 0.252, 0.0102, 0.0079, 0.0, 0.3241, 0.0, 0.0, 0.1472, 0.2048]",8.2581735,0.2557,0.9479121494305859,artifacts/tta/tent/client_0_brightness/adapted_client_model.pt
+client_0,glass_blur,"[0.049, 0.5091, 0.0026, 0.0042, 0.0, 0.2261, 0.0, 0.0, 0.0561, 0.1529]",7.948395833000001,0.183,0.9651152228399191,artifacts/tta/tent/client_0_glass_blur/adapted_client_model.pt
+client_0,impulse_noise,"[0.0683, 0.5123, 0.0009, 0.0037, 0.0, 0.1911, 0.0, 0.0, 0.1388, 0.0849]",7.777342332999996,0.2031,0.9629360983200772,artifacts/tta/tent/client_0_impulse_noise/adapted_client_model.pt
+client_0,motion_blur,"[0.0294, 0.312, 0.011, 0.0209, 0.0, 0.2845, 0.0, 0.0, 0.0702, 0.272]",7.661747749999996,0.227,0.9569775592797422,artifacts/tta/tent/client_0_motion_blur/adapted_client_model.pt
+client_0,zoom_blur,"[0.0282, 0.2921, 0.01, 0.0373, 0.0, 0.232, 0.0, 0.0, 0.0568, 0.3436]",7.493300749999996,0.2243,0.9596643413378237,artifacts/tta/tent/client_0_zoom_blur/adapted_client_model.pt
+client_1,brightness,"[0.0155, 0.0, 0.0091, 0.0818, 0.0, 0.0411, 0.0, 0.0, 0.0009, 0.8516]",7.533303833000005,0.1512,0.9701296608901859,artifacts/tta/tent/client_1_brightness/adapted_client_model.pt
+client_1,glass_blur,"[0.0114, 0.0, 0.0072, 0.0818, 0.0, 0.0131, 0.0, 0.0, 0.0, 0.8865]",7.606905457999993,0.13309999999999997,0.9709642568858867,artifacts/tta/tent/client_1_glass_blur/adapted_client_model.pt
+client_1,impulse_noise,"[0.0277, 0.0, 0.0045, 0.1192, 0.0, 0.0274, 0.0, 0.0, 0.0004, 0.8208]",7.624764416999994,0.1555,0.962776196458162,artifacts/tta/tent/client_1_impulse_noise/adapted_client_model.pt
+client_1,motion_blur,"[0.0047, 0.0, 0.0097, 0.113, 0.0, 0.0327, 0.0, 0.0, 0.0004, 0.8395]",9.016954042000009,0.1448,0.9692226069424217,artifacts/tta/tent/client_1_motion_blur/adapted_client_model.pt
+client_1,zoom_blur,"[0.0036, 0.0, 0.0098, 0.1361, 0.0, 0.0449, 0.0, 0.0, 0.0005, 0.8051]",7.704313583000001,0.1496,0.9667202579240931,artifacts/tta/tent/client_1_zoom_blur/adapted_client_model.pt
+client_2,brightness,"[0.0002, 0.0, 0.0031, 0.0869, 0.0, 0.0003, 0.2107, 0.0, 0.5719, 0.1269]",7.516418125000001,0.21189999999999998,0.9549836578786437,artifacts/tta/tent/client_2_brightness/adapted_client_model.pt
+client_2,glass_blur,"[0.0004, 0.0, 0.0012, 0.054, 0.0, 0.0, 0.2999, 0.0, 0.5416, 0.1029]",7.814957333999999,0.20839999999999997,0.9562504414641544,artifacts/tta/tent/client_2_glass_blur/adapted_client_model.pt
+client_2,impulse_noise,"[0.0007, 0.0, 0.0009, 0.0757, 0.0, 0.0, 0.263, 0.0, 0.5848, 0.0749]",7.743022707999998,0.2043,0.9531520402006751,artifacts/tta/tent/client_2_impulse_noise/adapted_client_model.pt
+client_2,motion_blur,"[0.0002, 0.0, 0.0017, 0.0613, 0.0, 0.0, 0.3249, 0.0, 0.5341, 0.0778]",7.705516791999997,0.21070000000000003,0.9414452671478346,artifacts/tta/tent/client_2_motion_blur/adapted_client_model.pt
+client_2,zoom_blur,"[0.0002, 0.0, 0.0018, 0.0706, 0.0, 0.0001, 0.3349, 0.0, 0.5292, 0.0632]",7.7698661670000035,0.2131,0.9409036629308664,artifacts/tta/tent/client_2_zoom_blur/adapted_client_model.pt
+client_3,brightness,"[0.6371, 0.0, 0.0156, 0.2694, 0.0, 0.0655, 0.0, 0.0, 0.0005, 0.0119]",7.809255000000007,0.17629999999999998,0.9788607936428766,artifacts/tta/tent/client_3_brightness/adapted_client_model.pt
+client_3,glass_blur,"[0.7253, 0.0, 0.0343, 0.2357, 0.0, 0.0032, 0.0, 0.0, 0.0001, 0.0014]",7.66530104200001,0.15230000000000002,0.9838384768567927,artifacts/tta/tent/client_3_glass_blur/adapted_client_model.pt
+client_3,impulse_noise,"[0.8016, 0.0, 0.0361, 0.1469, 0.0, 0.0152, 0.0, 0.0, 0.0002, 0.0]",7.653348375000007,0.14309999999999998,0.9883765353425008,artifacts/tta/tent/client_3_impulse_noise/adapted_client_model.pt
+client_3,motion_blur,"[0.5645, 0.0, 0.0219, 0.3726, 0.0, 0.0316, 0.0, 0.0, 0.0008, 0.0086]",7.6778500000000065,0.17880000000000001,0.9848649114135344,artifacts/tta/tent/client_3_motion_blur/adapted_client_model.pt
+client_3,zoom_blur,"[0.541, 0.0, 0.0289, 0.3942, 0.0, 0.0312, 0.0, 0.0, 0.0003, 0.0044]",7.695173291999993,0.17969999999999997,0.9792834156562176,artifacts/tta/tent/client_3_zoom_blur/adapted_client_model.pt
+client_4,brightness,"[0.001, 0.0, 0.0321, 0.0001, 0.0, 0.3197, 0.0, 0.0827, 0.0004, 0.564]",7.507412041999999,0.179,0.964717136380292,artifacts/tta/tent/client_4_brightness/adapted_client_model.pt
+client_4,glass_blur,"[0.0, 0.0, 0.0326, 0.0, 0.0, 0.5525, 0.0, 0.0914, 0.0001, 0.3234]",7.768978333000007,0.1607,0.9743761923078772,artifacts/tta/tent/client_4_glass_blur/adapted_client_model.pt
+client_4,impulse_noise,"[0.0006, 0.0, 0.0499, 0.0003, 0.0, 0.6629, 0.0, 0.0228, 0.0002, 0.2633]",7.656842250000011,0.16539999999999996,0.9685929708837516,artifacts/tta/tent/client_4_impulse_noise/adapted_client_model.pt
+client_4,motion_blur,"[0.0001, 0.0, 0.0202, 0.0, 0.0, 0.4164, 0.0, 0.1173, 0.0004, 0.4456]",7.501492541999994,0.17409999999999998,0.9735595153925074,artifacts/tta/tent/client_4_motion_blur/adapted_client_model.pt
+client_4,zoom_blur,"[0.0001, 0.0, 0.022, 0.0, 0.0, 0.4735, 0.0, 0.1825, 0.0005, 0.3214]",7.587951083999997,0.1708,0.9718888361934427,artifacts/tta/tent/client_4_zoom_blur/adapted_client_model.pt

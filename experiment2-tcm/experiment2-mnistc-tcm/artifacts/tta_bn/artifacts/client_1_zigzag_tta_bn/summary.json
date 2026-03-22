@@ -1,0 +1,18 @@
+{
+  "client_name": "client_1",
+  "corruption": "zigzag",
+  "num_target_samples": 10000,
+  "baseline_accuracy": 0.8231,
+  "adapted_accuracy": 0.7896,
+  "num_adaptation_batches": 157,
+  "adaptation_method": "tta_bn",
+  "tta_bn_pseudo_sample_size": 32.0,
+  "separate_artifacts": {
+    "wdm_weights": "wdm_adapted_weights.json",
+    "ucs_layer_updates": "ucs_adapted_layer_updates.json",
+    "bndas_bn_mean_var": "bndas_adapted_bn_mean_var.json",
+    "bnuas_bn_gamma_beta": "bnuas_adapted_bn_gamma_beta.json",
+    "pdam_prediction_distribution": "pdam_adapted_prediction_distribution.json"
+  },
+  "output_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/TTA techniques/artifacts_tta_bn/client_1_zigzag_tta_bn"
+}

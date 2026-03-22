@@ -1,0 +1,962 @@
+[
+  {
+    "round": 1,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.0453,
+    "client_metrics": {
+      "client_0": {
+        "loss": 2.541899452250228,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 2.584390406211217,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 2.5723096990177776,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 2.580390269226498,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 2.427088964566952,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 2,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.2865,
+    "client_metrics": {
+      "client_0": {
+        "loss": 2.0127873085502888,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 2.072328372597694,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 2.0331825480501875,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 2.0939934606226083,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 1.9371688943568284,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 3,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.3665,
+    "client_metrics": {
+      "client_0": {
+        "loss": 1.6126057966142637,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 1.6551564072569211,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 1.6246047796347203,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 1.6858175251219008,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 1.5377349943164889,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 4,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4018,
+    "client_metrics": {
+      "client_0": {
+        "loss": 1.3425507028897603,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 1.3857545717557271,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 1.3736024946738512,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 1.4244174340341844,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 1.2665590446169783,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 5,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4057,
+    "client_metrics": {
+      "client_0": {
+        "loss": 1.1537999575973577,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 1.183815346856912,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 1.1837729485116453,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 1.2194501100442348,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 1.0697676742949136,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 6,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.3989,
+    "client_metrics": {
+      "client_0": {
+        "loss": 1.0092625056576525,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 1.0202049833536149,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 1.0354758331918308,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 1.0617436927098494,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.9155441803903115,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 7,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4256,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.8881304196312896,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.8831051886081696,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.9133701095723699,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.9271888496274622,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.7911051548835708,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 8,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4216,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.7754620004922915,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.768191860516866,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.8225772750173879,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.814708875081478,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.6894200914274387,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 9,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4289,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.6990607848024776,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.670807634194692,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.7291051996059906,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.7215938132542831,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.6084426008104309,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 10,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4188,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.6222716198008285,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.5983892332762479,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.656503640459134,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.6411551491317586,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.534741089583897,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 11,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4149,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.5742371848760507,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.535877063088119,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.6074100322703011,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.5731689524956238,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.483446057201401,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 12,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4313,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.529635453160502,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.48376804766555626,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.5741054286559423,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.5195319667331174,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.43798725034405545,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 13,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4296,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.4860212794990621,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.44128163779775303,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.522794906120015,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.4732962657243778,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.40218634573909323,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 14,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4167,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.44496192921940075,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.4078595137968659,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.48572856364851325,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.4328304145453323,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.36995214025179546,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 15,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.427,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.4284402434642498,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.3751601647709807,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.4646201334702663,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.4006353419305932,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.34256848396082235,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 16,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4085,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.39889960358412857,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.3576846248904864,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.4341723744940554,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.375858626431889,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.324134511833753,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 17,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4095,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.38292742358186305,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.33502555421243113,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.4185015926057966,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.35694980363433176,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.30892918654452495,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 18,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4082,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.35874097850969716,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.3184296939522028,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.38963766648855985,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.3360937691206097,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.29094273016099037,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 19,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4037,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.3489286617590831,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.3026080828656753,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.3937307803167237,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.3172269237219778,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.2784455712854378,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 20,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4127,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.3284433204648841,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.29048444371670484,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.3730629055736921,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.3058184131725222,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.2685520863932807,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 21,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4107,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.3250729479850867,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.2774005218160649,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.35471653069059056,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.29319554047069996,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.25342293562806717,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 22,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4077,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.30371990356689843,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.26876381927480303,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.35925028253442204,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.28219850273468555,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.2451808557732076,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 23,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4018,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.3004171567467543,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.25945783268039424,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.32218213364099846,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.27091032133525256,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.23906358992908058,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 24,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4061,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.30253512901373397,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.2523677044796447,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.32171759516255466,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.2646993054793431,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.22950533604839954,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 25,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.3983,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.28818338840690433,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.2422187301516533,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.3286497317127183,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.2551368511003307,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.22583681780511772,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 26,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4045,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.2656065142020965,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.23819906358917553,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.31732774250782453,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.24797259700349253,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.21751210596563855,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 27,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.4029,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.2724847539431519,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.232149080367138,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.300990248656171,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.24294891631883433,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.21309015362001046,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 28,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.3993,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.26748618283587644,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.22862560989024738,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.29794888289438354,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.23680844109537255,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.20766620349169262,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 29,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.3988,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.255867049161695,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.22027567110334834,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.280630139936494,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.22965780610584804,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.2017411396967444,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  },
+  {
+    "round": 30,
+    "dataset": "CIFAR-100",
+    "global_accuracy": 0.407,
+    "client_metrics": {
+      "client_0": {
+        "loss": 0.2523244044592238,
+        "num_samples": 9756,
+        "original_num_samples": 9756
+      },
+      "client_1": {
+        "loss": 0.21345646057277917,
+        "num_samples": 10198,
+        "original_num_samples": 10198
+      },
+      "client_2": {
+        "loss": 0.29896951686176987,
+        "num_samples": 9746,
+        "original_num_samples": 9746
+      },
+      "client_3": {
+        "loss": 0.22446152377459738,
+        "num_samples": 9925,
+        "original_num_samples": 9925
+      },
+      "client_4": {
+        "loss": 0.19460624454285555,
+        "num_samples": 10375,
+        "original_num_samples": 10375
+      }
+    }
+  }
+]

@@ -1,0 +1,7 @@
+method,technique,accuracy,precision,recall,f1
+TTA-Grad,rule_based,0.443,0.6004,0.5522,0.5753
+TTA-Grad,inference_based,0.2855,0.4496,0.2038,0.2804
+TTA-Grad,semantic_based,0.7133,0.7899,0.7907,0.7903
+TTA-Grad,similarity_based,0.5195,0.6388,0.6828,0.6601
+TTA-Grad,mlaas_based,0.5902,0.6551,0.845,0.7381
+TTA-Grad,CATTM,0.8189,0.9484,0.8393,0.8905

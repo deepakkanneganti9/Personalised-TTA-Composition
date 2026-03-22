@@ -1,0 +1,64 @@
+{
+  "num_rows": 15500,
+  "chunk_size": 500,
+  "num_chunks_per_corruption": 20,
+  "num_adapted_cases": 25,
+  "num_compositions": 31,
+  "severity": 1,
+  "thresholds": [
+    0.35,
+    0.4,
+    0.5,
+    0.6
+  ],
+  "threshold_metrics": [
+    {
+      "threshold": 0.35,
+      "accuracy": 0.3935483870967742,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 9400,
+      "fn": 0,
+      "tn": 6100,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.56,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6820,
+      "fn": 0,
+      "tn": 8680,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.8467096774193549,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2376,
+      "fn": 0,
+      "tn": 13124,
+      "num_samples": 15500
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.9796129032258064,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 316,
+      "fn": 0,
+      "tn": 15184,
+      "num_samples": 15500
+    }
+  ]
+}

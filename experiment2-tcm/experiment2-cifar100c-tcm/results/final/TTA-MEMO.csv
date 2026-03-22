@@ -1,0 +1,7 @@
+method,technique,accuracy,precision,recall,f1
+TTA-MEMO,rule_based,0.5086,0.6427,0.6324,0.6375
+TTA-MEMO,inference_based,0.3503,0.5343,0.3824,0.4458
+TTA-MEMO,semantic_based,0.7535,0.8146,0.8277,0.8211
+TTA-MEMO,similarity_based,0.4546,0.5976,0.6174,0.6073
+TTA-MEMO,mlaas_based,0.5688,0.648,0.8076,0.719
+TTA-MEMO,CATTM,0.8137,0.9488,0.8327,0.887

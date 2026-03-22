@@ -1,0 +1,13 @@
+{
+  "composition_name": "C3_C4_C5",
+  "client_names": [
+    "client_2",
+    "client_3",
+    "client_4"
+  ],
+  "dataset": "clean_cifar100_test",
+  "dataset_name": "cifar100",
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/FL/artifacts/cifar100_fl_baseline_5clients_run_clean",
+  "reference_global_round": 10,
+  "aggregation": "sample-weighted-fedavg"
+}

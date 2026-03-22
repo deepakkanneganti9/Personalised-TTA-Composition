@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "source_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/QS/qos_dataset.csv",
+      "release_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/paper_release/results/qos/tta_grad/qos_dataset.csv",
+      "rows": 25,
+      "kind": "tta"
+    },
+    {
+      "source_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/QS_tta_bn/qos_dataset.csv",
+      "release_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/paper_release/results/qos/tta_bn/qos_dataset.csv",
+      "rows": 25,
+      "kind": "tta"
+    },
+    {
+      "source_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/QS_tta_memo/qos_dataset.csv",
+      "release_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/paper_release/results/qos/tta_memo/qos_dataset.csv",
+      "rows": 25,
+      "kind": "tta"
+    },
+    {
+      "source_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/QOS_performing_C/qos_performing_c_dataset.csv",
+      "release_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/paper_release/results/qos/composition/qos_performing_c_dataset.csv",
+      "rows": 31,
+      "kind": "composition"
+    }
+  ]
+}

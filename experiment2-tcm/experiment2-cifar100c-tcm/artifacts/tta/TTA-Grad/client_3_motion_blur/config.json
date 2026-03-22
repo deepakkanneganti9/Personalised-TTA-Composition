@@ -1,0 +1,22 @@
+{
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/FL/artifacts/cifar100_fl_baseline_5clients_run_clean",
+  "client_name": "client_3",
+  "corruption": "motion_blur",
+  "split": "test",
+  "severity": 1,
+  "dataset": "CIFAR-100",
+  "dataset_name": "cifar100",
+  "target_dataset": "CIFAR-100-C",
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "num_target_samples": 10000,
+  "tent_parameter_names": [
+    "features.1.weight",
+    "features.1.bias",
+    "features.5.weight",
+    "features.5.bias",
+    "features.9.weight",
+    "features.9.bias"
+  ]
+}

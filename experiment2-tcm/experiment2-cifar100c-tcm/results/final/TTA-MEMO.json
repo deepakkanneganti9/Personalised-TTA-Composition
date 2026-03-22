@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "method": "TTA-MEMO",
+      "technique": "rule_based",
+      "accuracy": 0.5086,
+      "precision": 0.6427,
+      "recall": 0.6324,
+      "f1": 0.6375
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "inference_based",
+      "accuracy": 0.3503,
+      "precision": 0.5343,
+      "recall": 0.3824,
+      "f1": 0.4458
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "semantic_based",
+      "accuracy": 0.7535,
+      "precision": 0.8146,
+      "recall": 0.8277,
+      "f1": 0.8211
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "similarity_based",
+      "accuracy": 0.4546,
+      "precision": 0.5976,
+      "recall": 0.6174,
+      "f1": 0.6073
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "mlaas_based",
+      "accuracy": 0.5688,
+      "precision": 0.648,
+      "recall": 0.8076,
+      "f1": 0.719
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "CATTM",
+      "accuracy": 0.8137,
+      "precision": 0.9488,
+      "recall": 0.8327,
+      "f1": 0.887
+    }
+  ]
+}

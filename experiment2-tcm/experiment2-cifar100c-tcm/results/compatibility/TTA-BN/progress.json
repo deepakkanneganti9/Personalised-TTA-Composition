@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "rows_completed": 15500,
+  "max_rows": null,
+  "summary_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/summary.csv",
+  "summary_json": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/summary.json",
+  "threshold_metrics_csv": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/threshold_metrics.csv",
+  "summary_csv_tagged": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/summary_TTABN.csv",
+  "summary_json_tagged": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/summary_TTABN.json",
+  "threshold_metrics_csv_tagged": "/Users/deepakkanneganti/Documents/TTA-Composition/Experiment 2/CIFAR100/composability-results-chunked/TTA-BN/threshold_metrics_TTABN.csv"
+}

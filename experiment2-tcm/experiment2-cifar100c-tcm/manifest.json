@@ -1,0 +1,43 @@
+{
+  "dataset": "CIFAR-100 / CIFAR-100-C",
+  "release_root": "paper_release",
+  "artifacts": {
+    "fl": "artifacts/fl/cifar100_fl_baseline_5clients_run_clean",
+    "tta_grad": "artifacts/tta/TTA-Grad",
+    "tta_bn": "artifacts/tta/TTA-BN",
+    "tta_memo": "artifacts/tta/TTA-MEMO",
+    "composition": "artifacts/composition/artifacts_expanded"
+  },
+  "results": {
+    "compatibility": {
+      "TTA-Grad": "results/compatibility/TTA-Grad",
+      "TTA-BN": "results/compatibility/TTA-BN",
+      "TTA-MEMO": "results/compatibility/TTA-MEMO"
+    },
+    "qos": {
+      "tta_grad": "results/qos/tta_grad/qos_dataset.csv",
+      "tta_bn": "results/qos/tta_bn/qos_dataset.csv",
+      "tta_memo": "results/qos/tta_memo/qos_dataset.csv",
+      "composition": "results/qos/composition/qos_performing_c_dataset.csv"
+    },
+    "final": "results/final"
+  },
+  "scripts": {
+    "baseline_ct": "scripts/baseline_CT.py",
+    "build_final_tables": "scripts/build_final_tables.py",
+    "fl_train": "scripts/train_fedavg_cifar100.py",
+    "tta_grad": "scripts/run_tent_adaptation.py",
+    "tta_bn": "scripts/run_tta_bn_adaptation.py",
+    "tta_memo": "scripts/run_tta_memo_adaptation.py",
+    "composition": "scripts/generate_composition_parameters.py",
+    "compatibility": "scripts/run_pairwise_compatibility.py",
+    "qos_adapted": "scripts/extract_qos_dataset.py",
+    "qos_composition": "scripts/extract_qos_performing_c.py"
+  },
+  "dependency_flow": [
+    "saved artifacts",
+    "saved compatibility summaries",
+    "saved QoS files",
+    "lightweight final-table regeneration"
+  ]
+}

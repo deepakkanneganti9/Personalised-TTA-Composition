@@ -1,0 +1,12 @@
+{
+  "composition_name": "C2_C4_C5",
+  "client_names": [
+    "client_1",
+    "client_3",
+    "client_4"
+  ],
+  "dataset": "clean_mnist_test",
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/FL/artifacts/mnist_fl_baseline_5clients_run",
+  "reference_global_round": 9,
+  "aggregation": "sample-weighted-fedavg"
+}

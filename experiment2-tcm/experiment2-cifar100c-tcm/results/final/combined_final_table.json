@@ -1,0 +1,156 @@
+{
+  "rows": [
+    {
+      "method": "TTA-Grad",
+      "technique": "rule_based",
+      "accuracy": 0.443,
+      "precision": 0.6004,
+      "recall": 0.5522,
+      "f1": 0.5753
+    },
+    {
+      "method": "TTA-Grad",
+      "technique": "inference_based",
+      "accuracy": 0.2855,
+      "precision": 0.4496,
+      "recall": 0.2038,
+      "f1": 0.2804
+    },
+    {
+      "method": "TTA-Grad",
+      "technique": "semantic_based",
+      "accuracy": 0.7133,
+      "precision": 0.7899,
+      "recall": 0.7907,
+      "f1": 0.7903
+    },
+    {
+      "method": "TTA-Grad",
+      "technique": "similarity_based",
+      "accuracy": 0.5195,
+      "precision": 0.6388,
+      "recall": 0.6828,
+      "f1": 0.6601
+    },
+    {
+      "method": "TTA-Grad",
+      "technique": "mlaas_based",
+      "accuracy": 0.5902,
+      "precision": 0.6551,
+      "recall": 0.845,
+      "f1": 0.7381
+    },
+    {
+      "method": "TTA-Grad",
+      "technique": "CATTM",
+      "accuracy": 0.8189,
+      "precision": 0.9484,
+      "recall": 0.8393,
+      "f1": 0.8905
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "rule_based",
+      "accuracy": 0.3564,
+      "precision": 0.5421,
+      "recall": 0.3737,
+      "f1": 0.4424
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "inference_based",
+      "accuracy": 0.3812,
+      "precision": 0.5547,
+      "recall": 0.4777,
+      "f1": 0.5133
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "semantic_based",
+      "accuracy": 0.7377,
+      "precision": 0.7832,
+      "recall": 0.8519,
+      "f1": 0.8161
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "similarity_based",
+      "accuracy": 0.5115,
+      "precision": 0.6292,
+      "recall": 0.694,
+      "f1": 0.66
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "mlaas_based",
+      "accuracy": 0.5474,
+      "precision": 0.6392,
+      "recall": 0.775,
+      "f1": 0.7006
+    },
+    {
+      "method": "TTA-BN",
+      "technique": "CATTM",
+      "accuracy": 0.8718,
+      "precision": 0.9503,
+      "recall": 0.9011,
+      "f1": 0.925
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "rule_based",
+      "accuracy": 0.5086,
+      "precision": 0.6427,
+      "recall": 0.6324,
+      "f1": 0.6375
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "inference_based",
+      "accuracy": 0.3503,
+      "precision": 0.5343,
+      "recall": 0.3824,
+      "f1": 0.4458
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "semantic_based",
+      "accuracy": 0.7535,
+      "precision": 0.8146,
+      "recall": 0.8277,
+      "f1": 0.8211
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "similarity_based",
+      "accuracy": 0.4546,
+      "precision": 0.5976,
+      "recall": 0.6174,
+      "f1": 0.6073
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "mlaas_based",
+      "accuracy": 0.5688,
+      "precision": 0.648,
+      "recall": 0.8076,
+      "f1": 0.719
+    },
+    {
+      "method": "TTA-MEMO",
+      "technique": "CATTM",
+      "accuracy": 0.8137,
+      "precision": 0.9488,
+      "recall": 0.8327,
+      "f1": 0.887
+    }
+  ],
+  "selected_rules": {
+    "rule_based": "mean_minus_5pct",
+    "inference_based": "mean_minus_5pct",
+    "semantic_based": "mean_minus_5pct",
+    "similarity_based": "mean_minus_5pct",
+    "mlaas_based": "mean_minus_5pct",
+    "CATTM": "mean_minus_16pct"
+  }
+}

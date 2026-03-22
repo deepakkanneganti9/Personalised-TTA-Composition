@@ -1,0 +1,35 @@
+{
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/CIFAR10/FL/artifacts/cifar10_fl_baseline_5clients_run_20rounds",
+  "client_name": "client_2",
+  "corruption": "glass_blur",
+  "dataset": "CIFAR-10",
+  "target_dataset": "CIFAR-10-C",
+  "split": "test",
+  "severity": 1,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "max_batches": null,
+  "allowed_classes": null,
+  "class_names": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "seed": 42,
+  "num_target_samples": 10000,
+  "tent_parameter_names": [
+    "features.1.weight",
+    "features.1.bias",
+    "features.5.weight",
+    "features.5.bias",
+    "features.9.weight",
+    "features.9.bias"
+  ]
+}

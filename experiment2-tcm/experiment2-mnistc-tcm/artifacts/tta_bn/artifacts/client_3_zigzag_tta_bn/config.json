@@ -1,0 +1,12 @@
+{
+  "fl_run_dir": "/Users/deepakkanneganti/Documents/TTA-Composition/TT-Adaptability/FL/artifacts/mnist_fl_baseline_5clients_run",
+  "client_name": "client_3",
+  "corruption": "zigzag",
+  "split": "test",
+  "batch_size": 64,
+  "seed": 42,
+  "num_target_samples": 10000,
+  "adaptation_method": "tta_bn",
+  "tta_bn_pseudo_sample_size": 32.0,
+  "tta_bn_suffix": "tta_bn"
+}
