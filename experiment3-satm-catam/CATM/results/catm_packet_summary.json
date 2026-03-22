@@ -1,0 +1,21 @@
+{
+  "rows": 57,
+  "composition_lengths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "corruptions": [
+    "brightness",
+    "glass_blur",
+    "stripe",
+    "zigzag"
+  ],
+  "clean_samples": [
+    50
+  ],
+  "corruption_samples": [
+    50
+  ]
+}
