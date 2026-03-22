@@ -1,6 +1,0 @@
-stage,runtime_seconds,num_items,details
-training,2338.373775,20,clients=20;rounds=20;epochs=3;corruption=clean+translate
-client_profile_generation,1436.915463,480,trial_total=1256.3341;reliability_total=138.5879;build_total=1434.7310
-composition_profile_generation,179.7803247,31,trial_total=168.9330;reliability_total=10.1193;build_total=179.6616
-compatibility_profile_generation,2357.391017,15500,adapted_cases=25;compositions=31;chunk_size=500
-offline_total,6312.46058,,training+client_profile+composition_profile+compatibility
