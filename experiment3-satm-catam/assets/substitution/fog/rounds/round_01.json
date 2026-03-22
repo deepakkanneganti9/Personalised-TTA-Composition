@@ -1,0 +1,59 @@
+{
+  "round": 1,
+  "corruption": "fog",
+  "global_accuracy": 0.8036,
+  "client_metrics": {
+    "client_0": {
+      "loss": 0.6415297213409629,
+      "num_samples": 5303
+    },
+    "client_1": {
+      "loss": 0.5684628792276437,
+      "num_samples": 5591
+    },
+    "client_2": {
+      "loss": 0.6233846368268132,
+      "num_samples": 5095
+    },
+    "client_3": {
+      "loss": 0.6293899087338812,
+      "num_samples": 9180
+    },
+    "client_4": {
+      "loss": 0.7024318569650253,
+      "num_samples": 6057
+    },
+    "client_5": {
+      "loss": 0.6048920365131419,
+      "num_samples": 5809
+    },
+    "client_6": {
+      "loss": 0.6670988133137531,
+      "num_samples": 5974
+    },
+    "client_7": {
+      "loss": 0.7244577908585238,
+      "num_samples": 5388
+    },
+    "client_8": {
+      "loss": 0.5866577541860549,
+      "num_samples": 5831
+    },
+    "client_9": {
+      "loss": 0.72786595105477,
+      "num_samples": 5772
+    }
+  },
+  "client_sizes": {
+    "client_0": 5303,
+    "client_1": 5591,
+    "client_2": 5095,
+    "client_3": 9180,
+    "client_4": 6057,
+    "client_5": 5809,
+    "client_6": 5974,
+    "client_7": 5388,
+    "client_8": 5831,
+    "client_9": 5772
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "round": 6,
+  "corruption": "clean+translate",
+  "global_accuracy": 0.9706,
+  "client_metrics": {
+    "client_0": {
+      "loss": 0.08717208093201573,
+      "num_samples": 1282
+    },
+    "client_1": {
+      "loss": 0.08556015742942691,
+      "num_samples": 1427
+    },
+    "client_2": {
+      "loss": 0.11966492707530657,
+      "num_samples": 1258
+    },
+    "client_3": {
+      "loss": 0.09466387510851577,
+      "num_samples": 2268
+    },
+    "client_4": {
+      "loss": 0.11005547638272956,
+      "num_samples": 1688
+    },
+    "client_5": {
+      "loss": 0.0985960482309262,
+      "num_samples": 1733
+    },
+    "client_6": {
+      "loss": 0.11582270535664299,
+      "num_samples": 1541
+    },
+    "client_7": {
+      "loss": 0.10912969155293523,
+      "num_samples": 1323
+    },
+    "client_8": {
+      "loss": 0.08391798753291368,
+      "num_samples": 1365
+    },
+    "client_9": {
+      "loss": 0.12639115215279162,
+      "num_samples": 1437
+    },
+    "client_10": {
+      "loss": 0.10281803413774028,
+      "num_samples": 1344
+    },
+    "client_11": {
+      "loss": 0.11622939851473678,
+      "num_samples": 1297
+    },
+    "client_12": {
+      "loss": 0.08763915424545606,
+      "num_samples": 1371
+    },
+    "client_13": {
+      "loss": 0.08421133773490078,
+      "num_samples": 1730
+    },
+    "client_14": {
+      "loss": 0.106185992845358,
+      "num_samples": 1608
+    },
+    "client_15": {
+      "loss": 0.11259460372802539,
+      "num_samples": 1661
+    },
+    "client_16": {
+      "loss": 0.09043112035012907,
+      "num_samples": 1513
+    },
+    "client_17": {
+      "loss": 0.08820418082177639,
+      "num_samples": 1384
+    },
+    "client_18": {
+      "loss": 0.10718590241264213,
+      "num_samples": 1338
+    },
+    "client_19": {
+      "loss": 0.12722934844593206,
+      "num_samples": 1432
+    }
+  },
+  "client_sizes": {
+    "client_0": 1282,
+    "client_1": 1427,
+    "client_2": 1258,
+    "client_3": 2268,
+    "client_4": 1688,
+    "client_5": 1733,
+    "client_6": 1541,
+    "client_7": 1323,
+    "client_8": 1365,
+    "client_9": 1437,
+    "client_10": 1344,
+    "client_11": 1297,
+    "client_12": 1371,
+    "client_13": 1730,
+    "client_14": 1608,
+    "client_15": 1661,
+    "client_16": 1513,
+    "client_17": 1384,
+    "client_18": 1338,
+    "client_19": 1432
+  }
+}

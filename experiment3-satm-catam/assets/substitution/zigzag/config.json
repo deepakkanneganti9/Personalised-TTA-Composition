@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "num_clients": 10,
+  "num_rounds": 3,
+  "local_epochs": 2,
+  "batch_size": 128,
+  "eval_batch_size": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "num_threads": 1,
+  "preferred_digits_per_client": 4,
+  "preferred_share": 0.68,
+  "corruptions": [
+    "fog",
+    "translate",
+    "stripe",
+    "zigzag",
+    "spatter"
+  ],
+  "corruption": "zigzag",
+  "artifact_dir": "/Users/deepakkanneganti/Documents/Experimemt 3/MINIST/FL_C/artifacts/federated_artifact_corrupt/zigzag"
+}
