@@ -1,0 +1,33 @@
+{
+  "round": 3,
+  "global_accuracy": 0.983,
+  "client_metrics": {
+    "client_0": {
+      "loss": 0.09100155036329576,
+      "num_samples": 11701
+    },
+    "client_1": {
+      "loss": 0.10453119270608459,
+      "num_samples": 9016
+    },
+    "client_2": {
+      "loss": 0.08884504663084096,
+      "num_samples": 15633
+    },
+    "client_3": {
+      "loss": 0.09416617795994336,
+      "num_samples": 11240
+    },
+    "client_4": {
+      "loss": 0.09635119368658238,
+      "num_samples": 12410
+    }
+  },
+  "client_sizes": {
+    "client_0": 11701,
+    "client_1": 9016,
+    "client_2": 15633,
+    "client_3": 11240,
+    "client_4": 12410
+  }
+}
