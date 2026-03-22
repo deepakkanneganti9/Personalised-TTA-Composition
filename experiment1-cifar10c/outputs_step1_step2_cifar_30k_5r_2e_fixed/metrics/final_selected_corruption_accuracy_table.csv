@@ -1,0 +1,6 @@
+Corruption,CATTM,ARS,DSS,POEM
+fog,90.7,45,50.8,50.2
+gaussian_noise,94.9,93.3,48.9,70
+gaussian_blur,92,53.7,48.6,50.2
+saturate,90.7,57.2,49.2,38.3
+spatter,91.4,63.9,50.5,51.8

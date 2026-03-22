@@ -1,0 +1,90 @@
+{
+  "trigger_config": {
+    "epsilon": 1e-08,
+    "gamma_H": 3.0,
+    "gamma_I": 2.5,
+    "w_H": 0.5,
+    "w_O": 0.5,
+    "tau_proxy": 0.45,
+    "tau_input": 0.45,
+    "K": 3,
+    "lambda_hidden": 1.0,
+    "trigger_threshold": 0.18,
+    "disable_hidden_branch": false,
+    "disable_input_persistence": false,
+    "disable_proxy_persistence": false
+  },
+  "federated_config": {
+    "data_root": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset",
+    "rounds": 5,
+    "local_epochs": 2,
+    "batch_size": 64,
+    "eval_batch_size": 1024,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "num_threads": 1,
+    "train_sample_cap": null,
+    "client_sample_cap": null,
+    "val_split": 5000
+  },
+  "historical_bank_config": {
+    "window_size": 128
+  },
+  "corruption_context_config": {
+    "mnist_c_root": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C",
+    "context_names": [
+      "brightness",
+      "motion_blur"
+    ],
+    "split": "test",
+    "max_samples_per_context": 10000
+  },
+  "pool_mining_config": {
+    "mnist_c_root": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C",
+    "split": "test",
+    "corruption_names": null,
+    "max_samples_per_corruption": 10000,
+    "window_size": 128,
+    "severity_bucket_size": 10000
+  },
+  "stream_config": {
+    "random_seed": 7,
+    "windows_per_segment": 4
+  },
+  "oracle_config": {
+    "relative_accuracy_drop_threshold": 0.15
+  },
+  "trigger_run_config": {
+    "use_saved_pool_window_stats": true
+  },
+  "evaluation_config": {
+    "entropy_threshold": 0.75,
+    "accuracy_thresholds": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "final_score_thresholds": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "poem_wealth_threshold": 10.0,
+    "poem_martingale_clip": 1.8,
+    "poem_martingale_gamma": 0.07216878364870323,
+    "poem_action_delay_samples": 100,
+    "asr_mu_c": 0.99,
+    "asr_alpha0": 0.1,
+    "asr_reset_on_trigger": true
+  },
+  "reporting_config": {
+    "report_filename": "step10_report.txt"
+  },
+  "seed": 7,
+  "device": "cpu"
+}

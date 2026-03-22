@@ -1,0 +1,97 @@
+{
+  "evaluation_config": {
+    "entropy_threshold": 0.75,
+    "accuracy_thresholds": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "final_score_thresholds": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "poem_wealth_threshold": 10.0,
+    "poem_martingale_clip": 1.8,
+    "poem_martingale_gamma": 0.07216878364870323,
+    "poem_action_delay_samples": 100,
+    "asr_mu_c": 0.99,
+    "asr_alpha0": 0.1,
+    "asr_reset_on_trigger": true
+  },
+  "stream_metrics_summary": {
+    "stream_a_benign_variability": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0,
+      "detection_delay": -1.0,
+      "hidden_failure_recall": 0.0,
+      "visible_failure_recall": 0.0,
+      "tp": 0,
+      "tn": 0,
+      "fp": 12,
+      "fn": 0,
+      "accuracy": 0.0,
+      "num_windows": 12
+    },
+    "stream_b_visible_degradation": {
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "false_positive_rate": 1.0,
+      "false_negative_rate": 0.0,
+      "detection_delay": 0.0,
+      "hidden_failure_recall": 0.0,
+      "visible_failure_recall": 1.0,
+      "tp": 4,
+      "tn": 0,
+      "fp": 8,
+      "fn": 0,
+      "accuracy": 0.3333333333333333,
+      "num_windows": 12
+    },
+    "stream_c_hidden_degradation": {
+      "precision": 0.36363636363636365,
+      "recall": 1.0,
+      "f1": 0.5333333333333333,
+      "false_positive_rate": 0.875,
+      "false_negative_rate": 0.0,
+      "detection_delay": 0.0,
+      "hidden_failure_recall": 1.0,
+      "visible_failure_recall": 0.0,
+      "tp": 4,
+      "tn": 1,
+      "fp": 7,
+      "fn": 0,
+      "accuracy": 0.4166666666666667,
+      "num_windows": 12
+    },
+    "stream_d_mixed_long": {
+      "precision": 0.4444444444444444,
+      "recall": 1.0,
+      "f1": 0.6153846153846153,
+      "false_positive_rate": 0.8333333333333334,
+      "false_negative_rate": 0.0,
+      "detection_delay": 0.0,
+      "hidden_failure_recall": 1.0,
+      "visible_failure_recall": 1.0,
+      "tp": 8,
+      "tn": 2,
+      "fp": 10,
+      "fn": 0,
+      "accuracy": 0.5,
+      "num_windows": 20
+    }
+  },
+  "metrics_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/metrics/step9_method_metrics.csv",
+  "plots_dir": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/plots",
+  "methods_evaluated": [
+    "proposed"
+  ]
+}

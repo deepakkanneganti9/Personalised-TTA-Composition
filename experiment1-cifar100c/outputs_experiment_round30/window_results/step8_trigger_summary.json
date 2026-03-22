@@ -1,0 +1,55 @@
+{
+  "trigger_config": {
+    "epsilon": 1e-08,
+    "gamma_H": 3.0,
+    "gamma_I": 2.5,
+    "w_H": 0.5,
+    "w_O": 0.5,
+    "tau_proxy": 0.45,
+    "tau_input": 0.45,
+    "K": 3,
+    "lambda_hidden": 1.0,
+    "trigger_threshold": 0.18,
+    "disable_hidden_branch": false,
+    "disable_input_persistence": false,
+    "disable_proxy_persistence": false
+  },
+  "trigger_run_config": {
+    "use_saved_pool_window_stats": true
+  },
+  "step8_stream_summaries": {
+    "stream_a_benign_variability": {
+      "num_windows": 12,
+      "num_triggered": 12,
+      "visible_branch_nonzero_windows": 3,
+      "hidden_branch_nonzero_windows": 12,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_a_benign_variability_trigger_results.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_a_benign_variability_trigger_results.csv"
+    },
+    "stream_b_visible_degradation": {
+      "num_windows": 12,
+      "num_triggered": 12,
+      "visible_branch_nonzero_windows": 9,
+      "hidden_branch_nonzero_windows": 12,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_b_visible_degradation_trigger_results.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_b_visible_degradation_trigger_results.csv"
+    },
+    "stream_c_hidden_degradation": {
+      "num_windows": 12,
+      "num_triggered": 11,
+      "visible_branch_nonzero_windows": 5,
+      "hidden_branch_nonzero_windows": 11,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_c_hidden_degradation_trigger_results.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_c_hidden_degradation_trigger_results.csv"
+    },
+    "stream_d_mixed_long": {
+      "num_windows": 20,
+      "num_triggered": 18,
+      "visible_branch_nonzero_windows": 10,
+      "hidden_branch_nonzero_windows": 20,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_d_mixed_long_trigger_results.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_d_mixed_long_trigger_results.csv"
+    }
+  },
+  "demonstration_note": "Visible degradation is exposed through visible_branch_score, while hidden/confidently-wrong degradation is exposed through hidden_branch_score."
+}

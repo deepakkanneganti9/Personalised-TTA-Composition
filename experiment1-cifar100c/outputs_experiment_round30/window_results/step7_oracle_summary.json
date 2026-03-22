@@ -1,0 +1,38 @@
+{
+  "oracle_config": {
+    "relative_accuracy_drop_threshold": 0.15
+  },
+  "clean_baseline_accuracy": 0.6408,
+  "accuracy_floor": 0.54468,
+  "stream_oracle_summaries": {
+    "stream_a_benign_variability": {
+      "num_windows": 12,
+      "num_oracle_trigger": 0,
+      "num_accuracy_aux_trigger": 4,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_a_benign_variability_oracle_labels.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_a_benign_variability_oracle_labels.csv"
+    },
+    "stream_b_visible_degradation": {
+      "num_windows": 12,
+      "num_oracle_trigger": 4,
+      "num_accuracy_aux_trigger": 4,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_b_visible_degradation_oracle_labels.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_b_visible_degradation_oracle_labels.csv"
+    },
+    "stream_c_hidden_degradation": {
+      "num_windows": 12,
+      "num_oracle_trigger": 4,
+      "num_accuracy_aux_trigger": 4,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_c_hidden_degradation_oracle_labels.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_c_hidden_degradation_oracle_labels.csv"
+    },
+    "stream_d_mixed_long": {
+      "num_windows": 20,
+      "num_oracle_trigger": 8,
+      "num_accuracy_aux_trigger": 12,
+      "json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_d_mixed_long_oracle_labels.json",
+      "csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/window_results/stream_d_mixed_long_oracle_labels.csv"
+    }
+  },
+  "main_oracle_note": "Main oracle labels are scenario-based: Stable/Mild -> 0, Visible/Hidden -> 1. Accuracy-based oracle is saved as an auxiliary diagnostic only."
+}

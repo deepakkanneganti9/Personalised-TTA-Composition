@@ -1,0 +1,8 @@
+{
+  "note": "Seeded from user-provided round-30 global checkpoint for rerun of Steps 3-10.",
+  "source_checkpoint": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline/checkpoints/global_model_round_30.pt",
+  "source_round": 30,
+  "final_global_test_metrics": {
+    "accuracy": 0.407
+  }
+}

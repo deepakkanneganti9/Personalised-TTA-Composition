@@ -1,0 +1,5 @@
+stream_name,method,precision,recall,f1,false_positive_rate,false_negative_rate,detection_delay,hidden_failure_recall,visible_failure_recall,tp,tn,fp,fn,accuracy,num_windows
+stream_a_benign_variability,proposed,0.0,0.0,0.0,1.0,0.0,-1.0,0.0,0.0,0,0,12,0,0.0,12
+stream_b_visible_degradation,proposed,0.3333333333333333,1.0,0.5,1.0,0.0,0.0,0.0,1.0,4,0,8,0,0.3333333333333333,12
+stream_c_hidden_degradation,proposed,0.36363636363636365,1.0,0.5333333333333333,0.875,0.0,0.0,1.0,0.0,4,1,7,0,0.4166666666666667,12
+stream_d_mixed_long,proposed,0.4444444444444444,1.0,0.6153846153846153,0.8333333333333334,0.0,0.0,1.0,1.0,8,2,10,0,0.5,20

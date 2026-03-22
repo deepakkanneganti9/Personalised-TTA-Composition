@@ -1,0 +1,32 @@
+{
+  "clean_context_profile_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/context_1_clean_cifar100.json",
+  "window_summary_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_window_summary.csv",
+  "array_paths": {
+    "logits": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_logits.npy",
+    "labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_labels.npy",
+    "predicted_labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_predicted_labels.npy",
+    "entropies": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_entropies.npy",
+    "max_probabilities": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_max_probabilities.npy",
+    "correctness_flags": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_correctness_flags.npy",
+    "input_features": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/clean_validation_input_features.npy"
+  },
+  "clean_validation_metrics": {
+    "clean_val_accuracy": 0.6408,
+    "clean_val_loss": 1.2270966796875,
+    "num_validation_samples": 5000,
+    "num_windows": 40,
+    "window_size": 128
+  },
+  "num_saved_windows": 40,
+  "coverage_checklist": {
+    "window_accuracy": true,
+    "window_entropy": true,
+    "window_output_distribution": true,
+    "window_input_feature_vectors": true,
+    "predicted_labels": true,
+    "max_probabilities": true,
+    "correctness_flags": true,
+    "historical_context_1_clean_cifar100": true,
+    "global_clean_validation_performance": true
+  }
+}

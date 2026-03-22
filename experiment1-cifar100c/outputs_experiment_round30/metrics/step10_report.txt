@@ -1,0 +1,26 @@
+Composition-Aware FL-TTA Experiment Report
+
+Global clean accuracy: 0.4070
+Windows per stream: {
+  "stream_a_benign_variability": 12,
+  "stream_b_visible_degradation": 12,
+  "stream_c_hidden_degradation": 12,
+  "stream_d_mixed_long": 20
+}
+Trigger decisions per stream: {
+  "stream_a_benign_variability": 12,
+  "stream_b_visible_degradation": 12,
+  "stream_c_hidden_degradation": 11,
+  "stream_d_mixed_long": 18
+}
+Hidden degradation successfully detected: True
+
+Baseline comparison table:
+stream_name | method | precision | recall | accuracy | f1 | hidden_failure_recall | visible_failure_recall
+------------+--------+-----------+--------+----------+----+-----------------------+-----------------------
+stream_a_benign_variability | proposed | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000
+stream_b_visible_degradation | proposed | 0.333 | 1.000 | 0.333 | 0.500 | 0.000 | 1.000
+stream_c_hidden_degradation | proposed | 0.364 | 1.000 | 0.417 | 0.533 | 1.000 | 0.000
+stream_d_mixed_long | proposed | 0.444 | 1.000 | 0.500 | 0.615 | 1.000 | 1.000
+
+Artifacts root: /Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30

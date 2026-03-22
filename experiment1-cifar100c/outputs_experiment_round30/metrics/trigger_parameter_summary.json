@@ -1,0 +1,15 @@
+{
+  "epsilon": 1e-08,
+  "gamma_H": 3.0,
+  "gamma_I": 2.5,
+  "w_H": 0.5,
+  "w_O": 0.5,
+  "tau_proxy": 0.45,
+  "tau_input": 0.45,
+  "K": 3,
+  "lambda_hidden": 1.0,
+  "trigger_threshold": 0.18,
+  "disable_hidden_branch": false,
+  "disable_input_persistence": false,
+  "disable_proxy_persistence": false
+}

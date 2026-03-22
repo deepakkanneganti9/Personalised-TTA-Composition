@@ -1,0 +1,73 @@
+{
+  "mnist_c_root": "/Users/deepakkanneganti/Documents/Experiment 1/Datasets/MNIST/mnist_c/mnist_c",
+  "selected_contexts": [
+    "brightness",
+    "motion_blur"
+  ],
+  "split": "train",
+  "max_samples_per_context": 10000,
+  "context_summaries": [
+    {
+      "context_name": "known_brightness",
+      "context_json_path": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/context_2_brightness.json",
+      "window_summary_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_window_summary.csv",
+      "array_paths": {
+        "logits": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_logits.npy",
+        "labels": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_labels.npy",
+        "predicted_labels": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_predicted_labels.npy",
+        "entropies": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_entropies.npy",
+        "max_probabilities": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_max_probabilities.npy",
+        "correctness_flags": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_correctness_flags.npy",
+        "input_features": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/brightness_train_input_features.npy"
+      },
+      "evaluation_metrics": {
+        "clean_val_accuracy": 0.9327,
+        "clean_val_loss": 0.23198218141794205,
+        "num_validation_samples": 10000,
+        "num_windows": 157,
+        "window_size": 64
+      },
+      "dataset_metadata": {
+        "corruption_name": "brightness",
+        "split": "train",
+        "num_samples": 10000,
+        "slice_start": 0,
+        "slice_end_exclusive": 10000,
+        "images_path": "/Users/deepakkanneganti/Documents/Experiment 1/Datasets/MNIST/mnist_c/mnist_c/brightness/train_images.npy",
+        "labels_path": "/Users/deepakkanneganti/Documents/Experiment 1/Datasets/MNIST/mnist_c/mnist_c/brightness/train_labels.npy",
+        "severity_note": "Local MNIST-C train files contain 60,000 samples per corruption. This pipeline uses the first selected slice from that file rather than an inferred severity band."
+      }
+    },
+    {
+      "context_name": "known_motion_blur",
+      "context_json_path": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/context_3_motion_blur.json",
+      "window_summary_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_window_summary.csv",
+      "array_paths": {
+        "logits": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_logits.npy",
+        "labels": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_labels.npy",
+        "predicted_labels": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_predicted_labels.npy",
+        "entropies": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_entropies.npy",
+        "max_probabilities": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_max_probabilities.npy",
+        "correctness_flags": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_correctness_flags.npy",
+        "input_features": "/Users/deepakkanneganti/Documents/Experiment 1/outputs_experiment_w64/historical_bank/motion_blur_train_input_features.npy"
+      },
+      "evaluation_metrics": {
+        "clean_val_accuracy": 0.9287,
+        "clean_val_loss": 0.264316365146637,
+        "num_validation_samples": 10000,
+        "num_windows": 157,
+        "window_size": 64
+      },
+      "dataset_metadata": {
+        "corruption_name": "motion_blur",
+        "split": "train",
+        "num_samples": 10000,
+        "slice_start": 0,
+        "slice_end_exclusive": 10000,
+        "images_path": "/Users/deepakkanneganti/Documents/Experiment 1/Datasets/MNIST/mnist_c/mnist_c/motion_blur/train_images.npy",
+        "labels_path": "/Users/deepakkanneganti/Documents/Experiment 1/Datasets/MNIST/mnist_c/mnist_c/motion_blur/train_labels.npy",
+        "severity_note": "Local MNIST-C train files contain 60,000 samples per corruption. This pipeline uses the first selected slice from that file rather than an inferred severity band."
+      }
+    }
+  ]
+}

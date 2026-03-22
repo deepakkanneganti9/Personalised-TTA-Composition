@@ -1,0 +1,79 @@
+{
+  "cifar10_c_root": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C",
+  "selected_contexts": [
+    "brightness",
+    "motion_blur"
+  ],
+  "split": "test",
+  "max_samples_per_context": 10000,
+  "context_summaries": [
+    {
+      "context_name": "known_brightness",
+      "context_json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/context_2_brightness.json",
+      "window_summary_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_window_summary.csv",
+      "array_paths": {
+        "logits": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_logits.npy",
+        "labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_labels.npy",
+        "predicted_labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_predicted_labels.npy",
+        "entropies": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_entropies.npy",
+        "max_probabilities": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_max_probabilities.npy",
+        "correctness_flags": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_correctness_flags.npy",
+        "input_features": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/brightness_test_input_features.npy"
+      },
+      "evaluation_metrics": {
+        "clean_val_accuracy": 0.4024,
+        "clean_val_loss": 3.051858740234375,
+        "num_validation_samples": 10000,
+        "num_windows": 79,
+        "window_size": 128
+      },
+      "dataset_metadata": {
+        "corruption_name": "brightness",
+        "split": "test",
+        "num_samples": 10000,
+        "images_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C/brightness.npy",
+        "labels_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C/labels.npy",
+        "selected_severities": [
+          1
+        ],
+        "original_indices_start": 0,
+        "original_indices_end_exclusive": 10000,
+        "severity_note": "CIFAR-100-C uses official 10,000-sample blocks for severities 1..5."
+      }
+    },
+    {
+      "context_name": "known_motion_blur",
+      "context_json_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/context_3_motion_blur.json",
+      "window_summary_csv_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_window_summary.csv",
+      "array_paths": {
+        "logits": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_logits.npy",
+        "labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_labels.npy",
+        "predicted_labels": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_predicted_labels.npy",
+        "entropies": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_entropies.npy",
+        "max_probabilities": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_max_probabilities.npy",
+        "correctness_flags": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_correctness_flags.npy",
+        "input_features": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/historical_bank/motion_blur_test_input_features.npy"
+      },
+      "evaluation_metrics": {
+        "clean_val_accuracy": 0.357,
+        "clean_val_loss": 3.365775439453125,
+        "num_validation_samples": 10000,
+        "num_windows": 79,
+        "window_size": 128
+      },
+      "dataset_metadata": {
+        "corruption_name": "motion_blur",
+        "split": "test",
+        "num_samples": 10000,
+        "images_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C/motion_blur.npy",
+        "labels_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/Dataset/CIFAR-100-C/CIFAR-100-C/labels.npy",
+        "selected_severities": [
+          1
+        ],
+        "original_indices_start": 0,
+        "original_indices_end_exclusive": 10000,
+        "severity_note": "CIFAR-100-C uses official 10,000-sample blocks for severities 1..5."
+      }
+    }
+  ]
+}

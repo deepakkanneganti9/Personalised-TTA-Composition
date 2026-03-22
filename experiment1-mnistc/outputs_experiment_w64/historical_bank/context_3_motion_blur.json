@@ -1,0 +1,40 @@
+{
+  "name": "known_motion_blur",
+  "mean_entropy": 0.40884207910413195,
+  "std_entropy": 0.07669167299088912,
+  "output_distribution": [
+    0.08698248407643312,
+    0.10768312101910828,
+    0.09414808917197452,
+    0.11873009554140128,
+    0.0875796178343949,
+    0.09942277070063694,
+    0.09325238853503184,
+    0.10987261146496816,
+    0.09275477707006369,
+    0.10957404458598727
+  ],
+  "input_feature_mean": [
+    0.13084059426928782,
+    0.22543954469595745,
+    12.080919241449635,
+    13.980466678643682,
+    19.02607484076433,
+    21.18998805732484
+  ],
+  "input_feature_std": [
+    0.011994808399003989,
+    0.01476553045508351,
+    0.044805569789516865,
+    0.11099776210843373,
+    0.71308823319855,
+    0.23671214679341082
+  ],
+  "metadata": {
+    "type": "known_mild_corruption",
+    "corruption_name": "motion_blur",
+    "source_split": "train",
+    "window_size": "64",
+    "severity_note": "Local MNIST-C train files contain 60,000 samples per corruption. This pipeline uses the first selected slice from that file rather than an inferred severity band."
+  }
+}

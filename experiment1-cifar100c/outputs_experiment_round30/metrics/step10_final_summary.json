@@ -1,0 +1,18 @@
+{
+  "global_clean_accuracy": 0.407,
+  "windows_per_stream": {
+    "stream_a_benign_variability": 12,
+    "stream_b_visible_degradation": 12,
+    "stream_c_hidden_degradation": 12,
+    "stream_d_mixed_long": 20
+  },
+  "trigger_counts": {
+    "stream_a_benign_variability": 12,
+    "stream_b_visible_degradation": 12,
+    "stream_c_hidden_degradation": 11,
+    "stream_d_mixed_long": 18
+  },
+  "hidden_degradation_detected": true,
+  "trigger_parameter_summary_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/metrics/trigger_parameter_summary.json",
+  "text_report_path": "/Users/deepakkanneganti/Documents/Experiment 1 CIFAR100/cifar100_full_proposed_pipeline_round30/metrics/step10_report.txt"
+}

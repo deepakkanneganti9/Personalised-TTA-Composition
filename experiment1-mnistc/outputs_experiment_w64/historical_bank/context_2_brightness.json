@@ -1,0 +1,40 @@
+{
+  "name": "known_brightness",
+  "mean_entropy": 0.4014513238220458,
+  "std_entropy": 0.08913354495751048,
+  "output_distribution": [
+    0.1070859872611465,
+    0.129578025477707,
+    0.08688296178343949,
+    0.09375,
+    0.09723328025477707,
+    0.06439092356687898,
+    0.09912420382165606,
+    0.10111464968152867,
+    0.12689092356687898,
+    0.09394904458598727
+  ],
+  "input_feature_mean": [
+    0.5774496228072294,
+    0.17345690119798016,
+    13.568867124569644,
+    13.566196478096543,
+    28.0,
+    28.0
+  ],
+  "input_feature_std": [
+    0.006089380542168698,
+    0.005673235548375124,
+    0.006377264044175025,
+    0.006911091720224793,
+    1e-08,
+    1e-08
+  ],
+  "metadata": {
+    "type": "known_mild_corruption",
+    "corruption_name": "brightness",
+    "source_split": "train",
+    "window_size": "64",
+    "severity_note": "Local MNIST-C train files contain 60,000 samples per corruption. This pipeline uses the first selected slice from that file rather than an inferred severity band."
+  }
+}
