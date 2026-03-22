@@ -9,20 +9,20 @@ This repository is organized around the four main ideas presented in the paper:
 
 The codebase is split into three experiment groups:
 
-- `experiment1-*`
+- `experiment1-CATTM/`
   - Composition-aware triggering experiments for MNIST-C, CIFAR-10-C, and CIFAR-100-C
-- `experiment2-tcm/`
+- `experiment2-TCM/`
   - TTA-aware composability experiments and paper-facing release packages
-- `experiment3-satm-catam/`
+- `experiment3-SATM-CATM/`
   - Service-level and composition-level adaptation artifacts for the later-stage paper pipeline
 
 ## Repository Reading Guide
 
 If you are new to the repository, the easiest reading order is:
 
-1. Start with **Algorithm 1 / CATTM** in the `experiment1-*` folders
-2. Move to **Algorithm 2 / TCM** in `experiment2-tcm/`
-3. Then read **Algorithm 3 / STAM** and **Algorithm 4 / CTAM** in `experiment3-satm-catam/`
+1. Start with **Algorithm 1 / CATTM** in `experiment1-CATTM/`
+2. Move to **Algorithm 2 / TCM** in `experiment2-TCM/`
+3. Then read **Algorithm 3 / STAM** and **Algorithm 4 / CTAM** in `experiment3-SATM-CATM/`
 
 ---
 
@@ -33,19 +33,19 @@ If you are new to the repository, the easiest reading order is:
 These experiments cover:
 
 - **MNIST / MNIST-C**
-  - `experiment1-mnistc/`
+  - `experiment1-CATTM/experiment1-mnistc/`
 - **CIFAR-10 / CIFAR-10-C**
-  - `experiment1-cifar10c/`
+  - `experiment1-CATTM/experiment1-cifar10c/`
 - **CIFAR-100 / CIFAR-100-C**
-  - `experiment1-cifar100c/`
+  - `experiment1-CATTM/experiment1-cifar100c/`
 
 ## Main Algorithm 1 Files
 
-- `experiment1-mnistc/composition_aware_fl_tta_mnist.py`
+- `experiment1-CATTM/experiment1-mnistc/composition_aware_fl_tta_mnist.py`
   - main CATTM pipeline for the MNIST-C experiment
-- `experiment1-cifar10c/composition_aware_fl_tta_CIFAR.py`
+- `experiment1-CATTM/experiment1-cifar10c/composition_aware_fl_tta_CIFAR.py`
   - main CATTM pipeline for the CIFAR-10-C experiment
-- `experiment1-cifar100c/composition_aware_fl_tta_CIFAR.py`
+- `experiment1-CATTM/experiment1-cifar100c/composition_aware_fl_tta_CIFAR.py`
   - main CATTM pipeline for the CIFAR-100-C experiment
 
 ## Baseline Trigger Files
@@ -58,32 +58,32 @@ The trigger baselines used for comparison are also kept in Experiment 1:
 
 You can find them here:
 
-- `experiment1-cifar10c/baselines/`
-- `experiment1-cifar100c/baseline/`
-- `experiment1-mnistc/baseline/`
+- `experiment1-CATTM/experiment1-cifar10c/baselines/`
+- `experiment1-CATTM/experiment1-cifar100c/baseline/`
+- `experiment1-CATTM/experiment1-mnistc/baseline/`
 
 ## Experiment 1 Outputs and Final Tables
 
 - **MNIST-C**
-  - outputs: `experiment1-mnistc/outputs_experiment_w64/`
-  - final comparison table: `experiment1-mnistc/outputs_experiment_w64/metrics/final_method_accuracy_table.csv`
+  - outputs: `experiment1-CATTM/experiment1-mnistc/outputs_experiment_w64/`
+  - final comparison table: `experiment1-CATTM/experiment1-mnistc/outputs_experiment_w64/metrics/final_method_accuracy_table.csv`
 - **CIFAR-10-C**
-  - outputs: `experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/`
-  - final comparison table: `experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/metrics/final_selected_corruption_accuracy_table.csv`
+  - outputs: `experiment1-CATTM/experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/`
+  - final comparison table: `experiment1-CATTM/experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/metrics/final_selected_corruption_accuracy_table.csv`
 - **CIFAR-100-C**
-  - outputs: `experiment1-cifar100c/outputs_experiment_round30/`
-  - final CATTM table: `experiment1-cifar100c/outputs_experiment_round30/metrics/corruption_threshold_accuracy_report_accuracy_tuned.csv`
+  - outputs: `experiment1-CATTM/experiment1-cifar100c/outputs_experiment_round30/`
+  - final CATTM table: `experiment1-CATTM/experiment1-cifar100c/outputs_experiment_round30/metrics/corruption_threshold_accuracy_report_accuracy_tuned.csv`
 
 ## Composition Models Used in Algorithm 1
 
 The Experiment 1 READMEs identify the composition-model checkpoints used in the final runs:
 
 - MNIST-C
-  - `experiment1-mnistc/outputs_experiment_w64/checkpoints/mls_composition.pt`
+  - `experiment1-CATTM/experiment1-mnistc/outputs_experiment_w64/checkpoints/mls_composition.pt`
 - CIFAR-10-C
-  - `experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/checkpoints/MLS_composition_cipher.pt`
+  - `experiment1-CATTM/experiment1-cifar10c/outputs_step1_step2_cifar_30k_5r_2e_fixed/checkpoints/MLS_composition_cipher.pt`
 - CIFAR-100-C
-  - `experiment1-cifar100c/outputs_experiment_round30/checkpoints/global_model_final.pt`
+  - `experiment1-CATTM/experiment1-cifar100c/outputs_experiment_round30/checkpoints/global_model_final.pt`
 
 Note:
 
@@ -92,9 +92,9 @@ Note:
 
 ## Experiment 1 READMEs
 
-- `experiment1-cifar10c/README.md`
-- `experiment1-cifar100c/README.txt`
-- `experiment1-mnistc/README.txt`
+- `experiment1-CATTM/experiment1-cifar10c/README.md`
+- `experiment1-CATTM/experiment1-cifar100c/README.txt`
+- `experiment1-CATTM/experiment1-mnistc/README.txt`
 
 ---
 
@@ -108,9 +108,9 @@ This section corresponds to the paper's **TTA-aware composability model**.
 
 The Experiment 2 datasets are:
 
-- `experiment2-tcm/experiment2-mnistc-tcm/`
-- `experiment2-tcm/experiment2-cifar10c-tcm/`
-- `experiment2-tcm/experiment2-cifar100c-tcm/`
+- `experiment2-TCM/experiment2-mnistc-tcm/`
+- `experiment2-TCM/experiment2-cifar10c-tcm/`
+- `experiment2-TCM/experiment2-cifar100c-tcm/`
 
 ## Main Algorithm 2 Files
 
@@ -139,17 +139,17 @@ Additional adaptation-related files in Experiment 2 include:
 ## Experiment 2 Final Outputs
 
 - MNIST-C
-  - `experiment2-tcm/experiment2-mnistc-tcm/results/final/combined_final_tables.csv`
+  - `experiment2-TCM/experiment2-mnistc-tcm/results/final/combined_final_tables.csv`
 - CIFAR-10-C
-  - `experiment2-tcm/experiment2-cifar10c-tcm/results/final/combined_final_table.csv`
+  - `experiment2-TCM/experiment2-cifar10c-tcm/results/final/combined_final_table.csv`
 - CIFAR-100-C
-  - `experiment2-tcm/experiment2-cifar100c-tcm/results/final/combined_final_table.csv`
+  - `experiment2-TCM/experiment2-cifar100c-tcm/results/final/combined_final_table.csv`
 
 ## Experiment 2 READMEs
 
-- `experiment2-tcm/experiment2-mnistc-tcm/README.md`
-- `experiment2-tcm/experiment2-cifar10c-tcm/README.md`
-- `experiment2-tcm/experiment2-cifar100c-tcm/README.md`
+- `experiment2-TCM/experiment2-mnistc-tcm/README.md`
+- `experiment2-TCM/experiment2-cifar10c-tcm/README.md`
+- `experiment2-TCM/experiment2-cifar100c-tcm/README.md`
 
 ---
 
@@ -163,23 +163,23 @@ In the paper, **Algorithm 3** is the **Service-Level TTA Composition Model (STAM
 
 In this repository, the service-level package is stored under:
 
-- `experiment3-satm-catam/SATM/`
+- `experiment3-SATM-CATM/SATM/`
 
 The naming in the repository uses `SATM`, while the paper text refers to the service-level model as `STAM`. The key implementation file for Algorithm 3 is:
 
-- `experiment3-satm-catam/SATM/source/algorithm3_satm.py`
+- `experiment3-SATM-CATM/SATM/source/algorithm3_satm.py`
 
 Supporting files for Algorithm 3:
 
-- `experiment3-satm-catam/SATM/source/satm_substitution_analysis.py`
-- `experiment3-satm-catam/SATM/source/satm_reference_analysis.py`
-- `experiment3-satm-catam/SATM/run_satm.py`
+- `experiment3-SATM-CATM/SATM/source/satm_substitution_analysis.py`
+- `experiment3-SATM-CATM/SATM/source/satm_reference_analysis.py`
+- `experiment3-SATM-CATM/SATM/run_satm.py`
 
 Important SATM/STAM result files:
 
-- `experiment3-satm-catam/SATM/results/satm_multi_tta_results_50_50.csv`
-- `experiment3-satm-catam/SATM/results/satm_substitution_results_50_50.csv`
-- `experiment3-satm-catam/SATM/results/satm_preference_weights_50_50.csv`
+- `experiment3-SATM-CATM/SATM/results/satm_multi_tta_results_50_50.csv`
+- `experiment3-SATM-CATM/SATM/results/satm_substitution_results_50_50.csv`
+- `experiment3-SATM-CATM/SATM/results/satm_preference_weights_50_50.csv`
 
 ## Algorithm 4: CTAM
 
@@ -187,67 +187,67 @@ In the paper, **Algorithm 4** is the **Composition-Level TTA Composition Model (
 
 In this repository, the composition-level package is stored under:
 
-- `experiment3-satm-catam/CATM/`
+- `experiment3-SATM-CATM/CATM/`
 
 The corresponding implementation file for Algorithm 4 is:
 
-- `experiment3-satm-catam/CATM/source/algorithm4_catm.py`
+- `experiment3-SATM-CATM/CATM/source/algorithm4_catm.py`
 
 Supporting files for Algorithm 4:
 
-- `experiment3-satm-catam/CATM/source/catm_composition_tta_methods.py`
-- `experiment3-satm-catam/CATM/source/catm_filtered_evaluation.py`
-- `experiment3-satm-catam/CATM/run_catm.py`
+- `experiment3-SATM-CATM/CATM/source/catm_composition_tta_methods.py`
+- `experiment3-SATM-CATM/CATM/source/catm_filtered_evaluation.py`
+- `experiment3-SATM-CATM/CATM/run_catm.py`
 
 Important CATM/CTAM result files:
 
-- `experiment3-satm-catam/CATM/results/catm_filtered_results_50_50.csv`
-- `experiment3-satm-catam/CATM/results/catm_packet_summary.json`
+- `experiment3-SATM-CATM/CATM/results/catm_filtered_results_50_50.csv`
+- `experiment3-SATM-CATM/CATM/results/catm_packet_summary.json`
 
 ## Shared Experiment 3 Assets and Final Tables
 
 Shared files for Experiment 3:
 
-- `experiment3-satm-catam/assets/`
+- `experiment3-SATM-CATM/assets/`
   - packaged FL, CATM, and substitution assets
-- `experiment3-satm-catam/common/`
+- `experiment3-SATM-CATM/common/`
   - shared FL and TTA utility code
 
 Final summary tables:
 
-- `experiment3-satm-catam/results/final_table_50_50.csv`
-- `experiment3-satm-catam/results/final_table_by_corruption_50_50.csv`
-- `experiment3-satm-catam/results/final_table_by_corruption_and_length_50_50.csv`
-- `experiment3-satm-catam/results/final_table_tta_bn_by_corruption_and_length_50_50.csv`
+- `experiment3-SATM-CATM/results/final_table_50_50.csv`
+- `experiment3-SATM-CATM/results/final_table_by_corruption_50_50.csv`
+- `experiment3-SATM-CATM/results/final_table_by_corruption_and_length_50_50.csv`
+- `experiment3-SATM-CATM/results/final_table_tta_bn_by_corruption_and_length_50_50.csv`
 
 Utility scripts:
 
-- `experiment3-satm-catam/run_packet_results.py`
-- `experiment3-satm-catam/run_paper_pipeline.py`
-- `experiment3-satm-catam/generate_final_table_50_50.py`
-- `experiment3-satm-catam/generate_final_table_by_corruption_50_50.py`
-- `experiment3-satm-catam/generate_final_table_by_corruption_and_length_50_50.py`
+- `experiment3-SATM-CATM/run_packet_results.py`
+- `experiment3-SATM-CATM/run_paper_pipeline.py`
+- `experiment3-SATM-CATM/generate_final_table_50_50.py`
+- `experiment3-SATM-CATM/generate_final_table_by_corruption_50_50.py`
+- `experiment3-SATM-CATM/generate_final_table_by_corruption_and_length_50_50.py`
 
 ## Experiment 3 READMEs
 
-- `experiment3-satm-catam/README.md`
-- `experiment3-satm-catam/SATM/README.md`
-- `experiment3-satm-catam/CATM/README.md`
+- `experiment3-SATM-CATM/README.md`
+- `experiment3-SATM-CATM/SATM/README.md`
+- `experiment3-SATM-CATM/CATM/README.md`
 
 ---
 
 ## Quick File Map
 
 - **Algorithm 1 / CATTM**
-  - `experiment1-mnistc/composition_aware_fl_tta_mnist.py`
-  - `experiment1-cifar10c/composition_aware_fl_tta_CIFAR.py`
-  - `experiment1-cifar100c/composition_aware_fl_tta_CIFAR.py`
+  - `experiment1-CATTM/experiment1-mnistc/composition_aware_fl_tta_mnist.py`
+  - `experiment1-CATTM/experiment1-cifar10c/composition_aware_fl_tta_CIFAR.py`
+  - `experiment1-CATTM/experiment1-cifar100c/composition_aware_fl_tta_CIFAR.py`
 - **Algorithm 2 / TCM**
-  - `experiment2-tcm/*/scripts/run_pairwise_compatibility.py`
-  - `experiment2-tcm/*/scripts/build_final_tables.py`
+  - `experiment2-TCM/*/scripts/run_pairwise_compatibility.py`
+  - `experiment2-TCM/*/scripts/build_final_tables.py`
 - **Algorithm 3 / STAM (repository package: SATM)**
-  - `experiment3-satm-catam/SATM/source/algorithm3_satm.py`
+  - `experiment3-SATM-CATM/SATM/source/algorithm3_satm.py`
 - **Algorithm 4 / CTAM (repository package: CATM)**
-  - `experiment3-satm-catam/CATM/source/algorithm4_catm.py`
+  - `experiment3-SATM-CATM/CATM/source/algorithm4_catm.py`
 
 This outer README is intended to help readers move from the paper's algorithm numbering to the exact experiment folders and source files in the repository.
