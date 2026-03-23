@@ -1,11 +1,11 @@
-# Test-Time Adaptation in MLaaS Composition for IoT Environments
+# Test-Time Adaptive Composition for Machine Learning as a Service (MLaaS) in IoT Environments
 
 This repository is organized around the four main ideas presented in the paper:
 
 1. **Algorithm 1: CATTM**
 2. **Algorithm 2: TCM**
-3. **Algorithm 3: STAM / SATM package**
-4. **Algorithm 4: CTAM / CATM package**
+3. **Algorithm 3: SAM**
+4. **Algorithm 4: CAM**
 
 The codebase is split into three experiment groups:
 
@@ -22,7 +22,7 @@ If you are new to the repository, the easiest reading order is:
 
 1. Start with **Algorithm 1 / CATTM** in `experiment1-CATTM/`
 2. Move to **Algorithm 2 / TCM** in `experiment2-TCM/`
-3. Then read **Algorithm 3 / STAM** and **Algorithm 4 / CTAM** in `experiment3-SATM-CATM/`
+3. Then read **Algorithm 3 / SAM** and **Algorithm 4 / CAM** in `experiment3-SATM-CATM/`
 
 ---
 
@@ -108,9 +108,9 @@ This section corresponds to the paper's **TTA-aware composability model**.
 
 The Experiment 2 datasets are:
 
-- `experiment2-TCM/experiment2-mnistc-tcm/`
-- `experiment2-TCM/experiment2-cifar10c-tcm/`
-- `experiment2-TCM/experiment2-cifar100c-tcm/`
+- `experiment2-TCM/experiment2-MNISTC-TCM/`
+- `experiment2-TCM/experiment2-CIFAR10C-TCM/`
+- `experiment2-TCM/experiment2-CIFAR100C-TCM/`
 
 ## Main Algorithm 2 Files
 
@@ -139,17 +139,17 @@ Additional adaptation-related files in Experiment 2 include:
 ## Experiment 2 Final Outputs
 
 - MNIST-C
-  - `experiment2-TCM/experiment2-mnistc-tcm/results/final/combined_final_tables.csv`
+  - `experiment2-TCM/experiment2-MNISTC-TCM/results/final/combined_final_tables.csv`
 - CIFAR-10-C
-  - `experiment2-TCM/experiment2-cifar10c-tcm/results/final/combined_final_table.csv`
+  - `experiment2-TCM/experiment2-CIFAR10C-TCM/results/final/combined_final_table.csv`
 - CIFAR-100-C
-  - `experiment2-TCM/experiment2-cifar100c-tcm/results/final/combined_final_table.csv`
+  - `experiment2-TCM/experiment2-CIFAR100C-TCM/results/final/combined_final_table.csv`
 
 ## Experiment 2 READMEs
 
-- `experiment2-TCM/experiment2-mnistc-tcm/README.md`
-- `experiment2-TCM/experiment2-cifar10c-tcm/README.md`
-- `experiment2-TCM/experiment2-cifar100c-tcm/README.md`
+- `experiment2-TCM/experiment2-MNISTC-TCM/README.md`
+- `experiment2-TCM/experiment2-CIFAR10C-TCM/README.md`
+- `experiment2-TCM/experiment2-CIFAR100C-TCM/README.md`
 
 ---
 
@@ -157,15 +157,15 @@ Additional adaptation-related files in Experiment 2 include:
 
 The final part of the repository contains the service-level and composition-level adaptation artifacts used in the later paper pipeline.
 
-## Algorithm 3: STAM
+## Algorithm 3: SAM
 
-In the paper, **Algorithm 3** is the **Service-Level TTA Composition Model (STAM)**.
+In the current paper, **Algorithm 3** is the **Service-Level Adaptation Model (SAM)**.
 
 In this repository, the service-level package is stored under:
 
 - `experiment3-SATM-CATM/SATM/`
 
-The naming in the repository uses `SATM`, while the paper text refers to the service-level model as `STAM`. The key implementation file for Algorithm 3 is:
+The naming in the repository still uses `SATM`, even though the current paper now refers to this model as `SAM`. The key implementation file corresponding to **Algorithm 3 / SAM** is:
 
 - `experiment3-SATM-CATM/SATM/source/algorithm3_satm.py`
 
@@ -175,21 +175,21 @@ Supporting files for Algorithm 3:
 - `experiment3-SATM-CATM/SATM/source/satm_reference_analysis.py`
 - `experiment3-SATM-CATM/SATM/run_satm.py`
 
-Important SATM/STAM result files:
+Important SAM result files stored under the existing SATM package:
 
 - `experiment3-SATM-CATM/SATM/results/satm_multi_tta_results_50_50.csv`
 - `experiment3-SATM-CATM/SATM/results/satm_substitution_results_50_50.csv`
 - `experiment3-SATM-CATM/SATM/results/satm_preference_weights_50_50.csv`
 
-## Algorithm 4: CTAM
+## Algorithm 4: CAM
 
-In the paper, **Algorithm 4** is the **Composition-Level TTA Composition Model (CTAM)**.
+In the current paper, **Algorithm 4** is the **Composition-Level Adaptation Model (CAM)**.
 
 In this repository, the composition-level package is stored under:
 
 - `experiment3-SATM-CATM/CATM/`
 
-The corresponding implementation file for Algorithm 4 is:
+The repository still uses the older `CATM` package name, but this folder now corresponds to **Algorithm 4 / CAM** in the paper. The corresponding implementation file is:
 
 - `experiment3-SATM-CATM/CATM/source/algorithm4_catm.py`
 
@@ -199,7 +199,7 @@ Supporting files for Algorithm 4:
 - `experiment3-SATM-CATM/CATM/source/catm_filtered_evaluation.py`
 - `experiment3-SATM-CATM/CATM/run_catm.py`
 
-Important CATM/CTAM result files:
+Important CAM result files stored under the existing CATM package:
 
 - `experiment3-SATM-CATM/CATM/results/catm_filtered_results_50_50.csv`
 - `experiment3-SATM-CATM/CATM/results/catm_packet_summary.json`
@@ -245,9 +245,9 @@ Utility scripts:
 - **Algorithm 2 / TCM**
   - `experiment2-TCM/*/scripts/run_pairwise_compatibility.py`
   - `experiment2-TCM/*/scripts/build_final_tables.py`
-- **Algorithm 3 / STAM (repository package: SATM)**
+- **Algorithm 3 / SAM (repository package: SATM)**
   - `experiment3-SATM-CATM/SATM/source/algorithm3_satm.py`
-- **Algorithm 4 / CTAM (repository package: CATM)**
+- **Algorithm 4 / CAM (repository package: CATM)**
   - `experiment3-SATM-CATM/CATM/source/algorithm4_catm.py`
 
-This outer README is intended to help readers move from the paper's algorithm numbering to the exact experiment folders and source files in the repository.
+This outer README is intended to help readers move from the paper's current algorithm naming to the exact experiment folders and source files in the repository, without changing the original internal filenames.
